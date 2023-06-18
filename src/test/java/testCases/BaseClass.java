@@ -34,7 +34,7 @@ public class BaseClass
    @Parameters("browser")
   public void setup(String br) 
    {
-	   
+	   //https://tutorialsninja.com/demo/index.php?route=account/register
 	   rb=ResourceBundle.getBundle("config");//load config.properties file
 	  // WebDriverManager.chromedriver().setup(); //from selenium 4.6.0 webdriver manager is not needed 
 	   

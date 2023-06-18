@@ -16,15 +16,17 @@ public class HomePage extends BasePage
       @FindBy(xpath = "//span[normalize-space()='My Account']")
       WebElement lnkMyaccount;
       
-     
-      
       @FindBy(xpath = "//a[normalize-space()='Register']")
       WebElement lnkRegister;
+      
+      @FindBy(xpath = "//a[normalize-space()='Login']")
+      WebElement  linkLogin;   
+      
       
       //Action Methods
       public void clickMyAccount() 
       {
-    	  System.out.println("Myaccount display "+lnkMyaccount.isDisplayed());
+    	
     	  lnkMyaccount.click();
       }
       
@@ -32,5 +34,10 @@ public class HomePage extends BasePage
       {
     	  
     	  lnkRegister.click();
+      }
+      
+      public void clickLogin()
+      {
+    	  linkLogin.click();
       }
 }

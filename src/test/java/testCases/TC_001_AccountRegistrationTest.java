@@ -8,6 +8,11 @@ import pageObjects.AccountRegistrationPage;
 
 public class TC_001_AccountRegistrationTest extends BaseClass
 {
+	
+	
+	
+	
+	
     @Test
 	public void test_account_Registration() 
 	
